@@ -5,6 +5,7 @@
 body {
   overflow: hidden;
   margin: 0;
+  position: relative;
   padding: 0;
 }
 .LoadingQuest {
@@ -13,6 +14,8 @@ body {
   background-image: url("/media/bg.png");
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+  position: relative;
   * {
     font-family: "Montserrat", sans-serif;
     color: #422919;
